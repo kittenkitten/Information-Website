@@ -1,0 +1,40 @@
+/* 
+    Created on : 10-Jul-2017, 20:09:23
+    Author     : Sonicwind
+*/
+img {
+    width: 400px;
+    height: 400px;
+   
+}
+table {
+    margin: auto;
+    margin-top: 10px;
+    border: none;
+}
+header {
+    background-color: #ffcc66;
+    font-family: Helvetica, sans-serif;
+    font-size: 28px;
+    border-radius: 5px;
+    padding: 5px;
+    
+    text-align:center;
+}
+p {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+#recipes {
+  display:block;text-align:center
+} 
+
+ footer {
+    background-color: #ffcc66;
+    border-radius: 5px;
+    padding: 5px; 
+    text-align:center;
+            width: 100%;
+            bottom: 0;
+            position: fixed;
+        }
