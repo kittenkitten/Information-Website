@@ -26,7 +26,8 @@ p {
     margin-right: 10%;
 }
 #recipes {
-  display:block;text-align:center
+    display:block;
+    text-align:center
 } 
 
  footer {
@@ -34,7 +35,19 @@ p {
     border-radius: 5px;
     padding: 5px; 
     text-align:center;
-            width: 100%;
-            bottom: 0;
-            position: fixed;
-        }
+    width: 100%;
+    bottom: 0;
+    position: fixed;
+}
+.recipe_pic{
+    float: right;
+    display: inline-block;
+    width: 45%;
+}
+.recipe {
+    display: inline-block;
+    width: 45%;
+}
+td {
+    width: 50%;
+}
