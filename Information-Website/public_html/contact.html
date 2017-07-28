@@ -9,21 +9,46 @@
         <title>Toast Information</title>
     </head>
     <body>
-        <header>Toast Information</header>
-        <div class="why_contact"><p>Why on earth would you want to talk to someone about toast? Our contact information is here should you ever become compelled to. </p></div>
-        <form class="form">
-            <fieldset>
-                <legend>Contact Us</legend>
-                <input type="text" name="Name" value="Name" /></br>
-                <input type="text" name="Email" value="Email" /></br>
-                <textarea name="Message" rows="4" cols="22">
-                    Please type your message here...
-                </textarea></br>
-                <input type="submit" value="submit" />
-            </fieldset>               
-        </form>
-        <div><p class="thanks">Thank you for visiting the worlds weirdest website!</p></div>
-        <footer><a href="http://i.imgur.com/WhjcNKe.gifv">Click here to see a kitten!!</a></footer>
+        <nav class="navbar navbar-default">
+            <div class="container-fluid">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="index.html">Toast Information</a>
+                </div>
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav">
+                        <!--<li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>-->
+                        <li><a href="recipes.html">Recipes</a></li>
+                        <li class="active"><a href="contact.html">Contact Us<span class="sr-only">(current)</span></a></li>
+                </div><!-- /.navbar-collapse -->
+            </div><!-- /.container-fluid -->
+        </nav>
+        <div class="container-fluid" >
+            <div class="row">
+
+                <div class="well well-lg col-lg-5" >
+                    <p>Why on earth would you want to talk to someone about toast? Our contact information is here should you ever become compelled to.</p>
+                    <p> Thank you for visiting the worlds weirdest website!</p>
+                </div>
+
+                <form class="col-md-7">
+                    <div class="input-group input-group-lg">
+                        <input type="text" class="form-control" placeholder="Your Name" >
+                        <input type="text" class="form-control" placeholder="Your Email">
+                        <input type="text" class="form-control" placeholder="Please write your message here...">
+                        <button class="btn btn-default" type="submit">Send</button>
+                    </div>
+                </form>
+            </div>
+        </div>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
         <script src="js/bootstrap.min.js"></script>
     </body>
